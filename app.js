@@ -7,4 +7,4 @@ app.get('/', function(req, res){
     res.end(util.format("%s - %s\n", new Date(), 'Got Request'));
 });
 
-app.listen(process.env.PORT || 8080)
+app.listen(process.env.PORT || 3000)
